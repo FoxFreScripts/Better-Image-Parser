@@ -68,9 +68,9 @@ def choose_website():
 
     while True:
         print(f"{success_color}Choose the website:{reset_color}")
-        print("1. TEST")
-        print(f"{error_color}2. TEST (Slower due to API usage){reset_color}")
-        print("3. TEST (clean images)")
+        print("1. Rule34")
+        print(f"{error_color}2. ATFBooru (Slower due to API usage){reset_color}")
+        print("3. Danbooru (clean images)")
         choice = input("Enter the number of the website (or any other key to reset options): ")
         if choice == "1":
             return "Rule34"
